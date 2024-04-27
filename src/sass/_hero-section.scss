@@ -1,0 +1,80 @@
+.header-bg {
+  height: 793px;
+  width: 100%;
+  @media screen and (max-width: 767px) {
+    object-fit: cover;
+  }
+}
+
+.header-section {
+  top: 15px;
+}
+
+.logo-leed {
+  width: 90px;
+  height: 80px;
+  object-fit: contain;
+  @media screen and (min-width: 768px) {
+    width: 115px;
+    height: 100px;
+  }
+}
+
+.ellipse-img {
+  width: 515px;
+  height: 530px;
+  top: 0;
+  right: 0;
+  object-fit: contain;
+}
+
+.agent-img {
+  width: 515px;
+  height: 530px;
+  top: 175px;
+  right: 50px;
+  object-fit: contain;
+}
+
+.header-heading {
+  font-weight: 700;
+  color: #292f32;
+  font-size: 30px;
+  text-align: left;
+  @media screen and (min-width: 768px) {
+    font-size: 50px;
+  }
+}
+.header-heading-blue {
+  color: #006189;
+}
+
+.header-paragraph {
+  font-weight: 500;
+  color: #292f32cc;
+  font-size: 16px;
+  text-align: left;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.header-typography {
+  top: 320px;
+}
+
+.get-started-btn {
+  width: 12rem;
+  background-color: #006189;
+  color: white;
+  border-radius: 22px;
+  border: 0;
+  padding: 8px;
+  font-size: 16px;
+  padding-inline: 20px;
+}
+
+.arrow-right-img {
+  width: 25px;
+  height: 25px;
+}
