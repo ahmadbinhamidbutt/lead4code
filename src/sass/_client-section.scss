@@ -1,0 +1,62 @@
+.client-section-container {
+  margin-block: 3rem;
+  @media screen and (min-width: 768px) {
+    margin-block: 3rem;
+  }
+}
+
+.steps-text {
+  font-weight: 700;
+  color: #292f32;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 5rem;
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+  }
+}
+
+.steps-text-blue {
+  color: #006189;
+}
+
+.mask-group-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.ellipse-client-img {
+  right: 0px;
+  bottom: 0;
+  z-index: -1;
+  object-fit: contain;
+  width: 25%;
+}
+
+.rectangle-client-img {
+  width: 100%;
+  left: 0;
+  top: -45px;
+  z-index: -1;
+  object-fit: contain;
+}
+
+.client-card {
+  background-color: white;
+  max-width: 14rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* Light color shadow */
+  transition: box-shadow 0.3s ease; /* Smooth transition for the shadow effect */
+}
+
+.client-card-title {
+  font-weight: 600;
+  color: #292f32;
+  font-size: 18px;
+}
+
+.client-card-text {
+  font-weight: 400;
+  color: #292f32;
+  font-size: 14px;
+}

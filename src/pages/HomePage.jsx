@@ -1,3 +1,4 @@
+import ClientSection from "../components/ClientSection";
 import HeroSection from "../components/HeroSection";
 import LeadGenerationSection from "../components/LeadGenerationSection";
 import LeedSpeedSection from "../components/LeedSpeedSection";
@@ -8,6 +9,7 @@ function HomePage() {
       <HeroSection />
       <LeadGenerationSection />
       <LeedSpeedSection />
+      <ClientSection />
     </div>
   );
 }
