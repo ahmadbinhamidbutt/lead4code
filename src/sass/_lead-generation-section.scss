@@ -1,0 +1,60 @@
+.lead-generation-container {
+  margin-block: 3rem;
+  @media screen and (min-width: 768px) {
+    margin-block: 7rem;
+  }
+}
+
+.lead-generation-text {
+  font-weight: 700;
+  color: #292f32;
+  font-size: 25px;
+  text-align: left;
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+  }
+}
+
+.lead--gen-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.verified-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 3%;
+}
+
+.lead-generation-card-title {
+  font-weight: 600;
+  color: #292f32;
+  font-size: 18px;
+  text-align: left;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.lead-generation-card {
+  max-width: 32rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* Light color shadow */
+  transition: box-shadow 0.3s ease; /* Smooth transition for the shadow effect */
+}
+
+.lead-generation-card:hover {
+  box-shadow: 0 0 60px 0 rgba(0, 97, 137, 0.2),
+    0 0 15px 0 rgba(102, 228, 227, 0.5);
+}
+
+.vector-img-large {
+  right: 0;
+  top: 40px;
+}
+
+.vector-img-small {
+  right: -70px;
+  top: 150px;
+}

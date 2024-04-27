@@ -36,7 +36,7 @@ function HeroSection() {
             <h1 className="header-heading header-heading-blue mb-4">
               Hassle-free.
             </h1>
-            <p className="header-paragraph mb-5">
+            <p className="text-small mb-5">
               We help agents close above their quota. Claim your territory
               before someone else does.
             </p>
