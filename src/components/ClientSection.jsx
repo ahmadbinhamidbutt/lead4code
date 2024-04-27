@@ -6,6 +6,8 @@ import bookCallIcon from "../assets/book_call.png";
 import callersIcon from "../assets/callers.png";
 import leadsIcon from "../assets/leads.png";
 import moneyIcon from "../assets/money.png";
+import vectorSolid from "../assets/vector-solid.png";
+import vectorLine from "../assets/vector-line.png";
 import ClientCard from "./ClientCard";
 
 function ClientSection() {
@@ -46,44 +48,70 @@ function ClientSection() {
 
   return (
     <div className="container client-section-container">
-      <div className="row">
-        <div className="col-12 col-lg-6">
-          <p className="steps-text px-3 px-md-5">
-            You’re <span className="steps-text-blue">Just 4 Steps Away</span>
-            <br /> From Getting Potential Deals
-            <br /> Sent Right To You!
-          </p>
-          <div className="position-relative">
-            <img
-              alt="mask-group-img"
-              className="mask-group-img"
-              src={maskGroup}
-            />
-            <img
-              alt="ellipse-img"
-              className="position-absolute ellipse-client-img"
-              src={ellipse}
-            />
-            <img
-              alt="rectangle-client-img"
-              className="position-absolute rectangle-client-img"
-              src={rectangle_client}
-            />
+      <div className="position-relative">
+        <img
+          alt="mask-group-img"
+          className="position-absolute vector-solid-img"
+          src={vectorSolid}
+        />
+        <img
+          alt="mask-group-img"
+          className="position-absolute vector-line-img"
+          src={vectorLine}
+        />
+        <div className="row counter-section">
+          <div className="col-md-4 mb-4 mb-md-0">
+            <p className="counter-txt">80+</p>
+            <p>Active Clients</p>
+          </div>
+          <div className="col-md-4  mb-4 mb-md-0">
+            <p className="counter-txt">135+</p>
+            <p>Projects Done</p>
+          </div>
+          <div className="col-md-4 mb-4 mb-md-0">
+            <p className="counter-txt">20+</p>
+            <p>Team Advisors</p>
           </div>
         </div>
-        <div className="col-12 col-lg-6">
-          <div className="row d-flex justify-content-center align-items-center">
-            {dummy_data.map((data) => (
-              <div className="col-6 col-lg-5 d-flex justify-content-center align-items-center">
-                <ClientCard
-                  id={data.id}
-                  title={data.title}
-                  subTitle={data.subTitle}
-                  cardIcon={data.icon}
-                  color={data.color}
-                />
-              </div>
-            ))}
+        <div className="row">
+          <div className="col-12 col-lg-6">
+            <p className="steps-text px-3 px-md-5">
+              You’re <span className="steps-text-blue">Just 4 Steps Away</span>
+              <br /> From Getting Potential Deals
+              <br /> Sent Right To You!
+            </p>
+            <div className="position-relative">
+              <img
+                alt="mask-group-img"
+                className="mask-group-img"
+                src={maskGroup}
+              />
+              <img
+                alt="ellipse-img"
+                className="position-absolute ellipse-client-img"
+                src={ellipse}
+              />
+              <img
+                alt="rectangle-client-img"
+                className="position-absolute rectangle-client-img"
+                src={rectangle_client}
+              />
+            </div>
+          </div>
+          <div className="col-12 col-lg-6">
+            <div className="row d-flex justify-content-center align-items-center">
+              {dummy_data.map((data) => (
+                <div className="col-6 col-lg-5 d-flex justify-content-center align-items-center">
+                  <ClientCard
+                    id={data.id}
+                    title={data.title}
+                    subTitle={data.subTitle}
+                    cardIcon={data.icon}
+                    color={data.color}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

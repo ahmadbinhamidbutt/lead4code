@@ -1,8 +1,5 @@
 .client-section-container {
   margin-block: 3rem;
-  @media screen and (min-width: 768px) {
-    margin-block: 3rem;
-  }
 }
 
 .steps-text {
@@ -59,4 +56,32 @@
   font-weight: 400;
   color: #292f32;
   font-size: 14px;
+}
+
+.counter-section {
+  margin-block: 3rem;
+  @media screen and (min-width: 768px) {
+    margin-block: 5rem;
+  }
+}
+
+.counter-txt {
+  color: #20aa59;
+  font-weight: 700;
+  font-size: 30px;
+  @media screen and (min-width: 768px) {
+    font-size: 50px;
+  }
+}
+
+.vector-solid-img {
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+.vector-line-img {
+  top: 0;
+  left: 0;
+  object-fit: contain;
 }
