@@ -1,0 +1,44 @@
+.wave-left-img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+.wave-right-img {
+  width: 61%;
+  top: 0;
+  right: 0;
+  object-fit: contain;
+}
+
+.why-love-text {
+  font-weight: 700;
+  color: #292f32;
+  font-size: 25px;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+  }
+}
+
+.why-love-text {
+  top: 80px;
+  color: #292f32;
+}
+
+.custom-card-container {
+  top: 220px;
+}
+
+.custom-card {
+  background-color: white;
+  max-width: 19rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* Light color shadow */
+  transition: box-shadow 0.3s ease; /* Smooth transition for the shadow effect */
+}
+
+.custom-card:hover {
+  box-shadow: 0 0 60px 0 rgba(0, 97, 137, 0.2),
+    0 0 15px 0 rgba(102, 228, 227, 0.5);
+}

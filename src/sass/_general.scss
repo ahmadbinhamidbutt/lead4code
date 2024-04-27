@@ -36,6 +36,16 @@
   }
 }
 
+.custom-card-title {
+  font-weight: 600;
+  color: #292f32;
+  font-size: 18px;
+  text-align: left;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
 .custom-card-text {
   font-weight: 400;
   color: #292f32;
