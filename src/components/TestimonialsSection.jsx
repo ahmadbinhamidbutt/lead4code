@@ -1,7 +1,6 @@
 import TestimonialCardComponent from "./TestimonialCardComponent";
 import testimonial_img from "../assets/profile-testimonial.png";
-import quote_img from "../assets/quote.png";
-import ellipse from "../assets/Ellipse 8.png";
+import quote_img from "../assets/quote-white.png";
 
 function TestimonialsSection() {
   const testimonials_data = [
