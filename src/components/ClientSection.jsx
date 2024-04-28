@@ -47,7 +47,7 @@ function ClientSection() {
   ];
 
   return (
-    <div className="container client-section-container">
+    <div className="container client-section-container p-0">
       <div className="position-relative">
         <img
           alt="mask-group-img"

@@ -7,7 +7,7 @@ import arrow_right from "../assets/arrow-right.png";
 
 function HeroSection() {
   return (
-    <div className="container">
+    <div className="container p-0">
       <div className="position-relative">
         <img alt="header-bg" className="header-bg" src={header_bg} />
         {/* header section */}
