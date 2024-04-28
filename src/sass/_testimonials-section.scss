@@ -1,0 +1,106 @@
+.testimonial-item {
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 30px;
+  color: #333;
+  margin: 30px;
+}
+
+.testimonial-item .rating {
+  color: gold;
+  margin-bottom: 15px;
+}
+
+.testimonial-item .profile {
+  margin-top: 20px;
+}
+
+.testimonial-item .profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.blockquote-txt {
+  font-weight: 400;
+  color: #292f32;
+  font-size: 16px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.testimonial-item h6 {
+  margin-top: 10px;
+}
+
+.carousel-custom-card {
+  max-width: 30rem;
+}
+
+.profile-container {
+  background-color: #f2f7f9;
+  border-radius: 30px;
+}
+
+.author-name-txt {
+  font-weight: 600;
+  color: #292f32;
+  font-size: 16px;
+  text-align: left;
+}
+
+.author-company-txt {
+  font-weight: 400;
+  color: #292f32;
+  font-size: 14px;
+  opacity: 0.8;
+  text-align: left;
+}
+
+.carousel-container {
+  background-color: #006189;
+  padding-block: 3rem;
+  @media screen and (min-width: 992px) {
+    padding-block: 5rem;
+  }
+}
+
+.carousel-custom-indicator {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+}
+
+.clients-txt {
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+  }
+  @media screen and (min-width: 992px) {
+    width: 600px;
+  }
+}
+
+.quote-img-container {
+  background-color: #3cd0e9;
+  border-radius: 50%;
+  padding: 5px;
+  top: -27px;
+  left: 25px;
+  width: 60px;
+  height: 60px;
+}
+
+.quote-img-absolute {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.carousel-inner {
+  width: auto !important;
+}
