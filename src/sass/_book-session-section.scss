@@ -1,0 +1,29 @@
+.leads-bg-img {
+  //   object-fit: contain;
+  height: 380px;
+  width: 100%;
+}
+
+.real-estate-txt {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+  }
+  @media screen and (min-width: 992px) {
+    width: 800px;
+  }
+}
+
+.get-started-btn-leads {
+  width: 18rem;
+  background-color: #006189;
+  color: white;
+  border-radius: 22px;
+  border: 0;
+  padding: 8px;
+  font-size: 16px;
+  padding-inline: 20px;
+  cursor: pointer;
+}
