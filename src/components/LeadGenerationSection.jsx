@@ -6,7 +6,7 @@ import vectorImgSmall from "../assets/Vector_small.png";
 function LeadGenerationSection() {
   return (
     <div className="container lead-generation-container p-0">
-      <div className="row">
+      <div className="row m-0">
         <div className="col-12 col-lg-6 px-3 px-md-5 mb-3 mb-md-0 position-relative">
           <img
             alt="vector-img-large"

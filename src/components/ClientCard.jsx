@@ -1,7 +1,7 @@
 function ClientCard({ id, title, subTitle, color, cardIcon }) {
   return (
     <div
-      className="client-card py-3 px-3 px-md-3 mb-4"
+      className="client-card py-3 px-2 px-md-3 mb-4"
       style={{
         backgroundColor: color,
         marginTop: id === 1 || id === 3 ? "5rem" : "0",

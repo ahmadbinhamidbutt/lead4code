@@ -59,7 +59,7 @@ function ClientSection() {
           className="position-absolute vector-line-img"
           src={vectorLine}
         />
-        <div className="row counter-section">
+        <div className="row m-0 counter-section">
           <div className="col-md-4 mb-4 mb-md-0">
             <p className="counter-txt">80+</p>
             <p>Active Clients</p>
@@ -73,7 +73,7 @@ function ClientSection() {
             <p>Team Advisors</p>
           </div>
         </div>
-        <div className="row">
+        <div className="row m-0">
           <div className="col-12 col-lg-6">
             <p className="steps-text px-3 px-md-5">
               You’re <span className="steps-text-blue">Just 4 Steps Away</span>
@@ -99,7 +99,7 @@ function ClientSection() {
             </div>
           </div>
           <div className="col-12 col-lg-6">
-            <div className="row d-flex justify-content-center align-items-center">
+            <div className="row m-0 d-flex justify-content-center align-items-center">
               {dummy_data.map((data) => (
                 <div className="col-6 col-lg-5 d-flex justify-content-center align-items-center">
                   <ClientCard
