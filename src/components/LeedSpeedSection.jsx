@@ -32,7 +32,7 @@ function LeedSpeedSection() {
   ];
   return (
     <div className="container p-0 mt-4">
-      <p className="why-love-text text-center w-100 d-block d-xl-none">
+      <p className="why-love-text text-center w-100 mt-5 d-block d-xl-none">
         Why They Love{" "}
         <img alt="heart-img" className="heart-img" src={heart_emoji} />
         <span className="why-love-text-blue"> LEAD4SPEED</span>
