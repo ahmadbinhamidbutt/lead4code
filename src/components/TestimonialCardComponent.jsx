@@ -9,7 +9,8 @@ const TestimonialCardComponent = ({
   avatar,
 }) => {
   return (
-    <div
+  <div className="w-100">
+     <div
       className={`carousel-custom-card carousel-item ${
         index === 0 ? "active" : ""
       }`}
@@ -33,6 +34,7 @@ const TestimonialCardComponent = ({
         </div>
       </div>
     </div>
+  </div>
   );
 };
 
