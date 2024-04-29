@@ -51,4 +51,8 @@
 
 .questions-txt-blue {
   color: #006189;
+  font-size: 17px;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+  }
 }

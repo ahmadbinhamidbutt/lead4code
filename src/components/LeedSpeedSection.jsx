@@ -32,25 +32,25 @@ function LeedSpeedSection() {
   ];
   return (
     <div className="container p-0 mt-4">
-      <p className="why-love-text text-center w-100 d-block d-lg-none">
+      <p className="why-love-text text-center w-100 d-block d-xl-none">
         Why They Love{" "}
         <img alt="heart-img" className="heart-img" src={heart_emoji} />
         <span className="why-love-text-blue"> LEAD4SPEED</span>
       </p>
       <div className="position-relative d-flex justify-content-center align-items-center">
-        <p className="why-love-text position-absolute text-center w-100 d-none d-lg-block">
+        <p className="why-love-text position-absolute text-center w-100 d-none d-xl-block">
           Why They Love{" "}
           <img alt="heart-img" className="heart-img" src={heart_emoji} />
           <span className="why-love-text-blue"> LEAD4SPEED</span>
         </p>
         <img
           alt="wave-left-img"
-          className="wave-left-img d-none d-lg-block"
+          className="wave-left-img d-none d-xl-block"
           src={waveLeft}
         />
         <img
           alt="wave-right-img"
-          className="position-absolute wave-right-img d-none d-lg-block"
+          className="position-absolute wave-right-img d-none d-xl-block"
           src={waveRight}
         />
         <div className="row px-3 px-lg-4 text-center w-100 custom-card-container">

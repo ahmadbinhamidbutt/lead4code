@@ -76,9 +76,9 @@ function ClientSection() {
         <div className="row m-0">
           <div className="col-12 col-lg-6">
             <p className="steps-text px-3 px-md-5">
-              You’re <span className="steps-text-blue">Just 4 Steps Away</span>
-              <br /> From Getting Potential Deals
-              <br /> Sent Right To You!
+              You’re <span className="steps-text-blue">Just 4 Steps Away </span>
+              From Getting Potential Deals
+              Sent Right To You!
             </p>
             <div className="position-relative">
               <img
