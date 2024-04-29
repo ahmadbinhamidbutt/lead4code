@@ -45,3 +45,10 @@
   box-shadow: 0 0 60px 0 rgba(0, 97, 137, 0.2),
     0 0 15px 0 rgba(102, 228, 227, 0.5);
 }
+
+.heart-img{
+  @media screen and (max-width: 767px) {
+    width: 30px;
+    height: 30px;
+  }
+}
